@@ -1,0 +1,12 @@
+<div class="counter-container">
+    <h1>Counter: {{ counter }}</h1>
+    <h1>CounterSignal : {{ counterSignal() }}</h1>
+    <h2>Contador con Suma y Resta</h2>
+    
+    <div class="button-group">
+        <button (click)="decreaseBy(1)" class="btn btn-decrease">-1</button>
+        <button (click)="resetCounter()" class="btn btn-reset">Reiniciar</button>
+        <button (click)="increaseBy(1)" class="btn btn-increase">+1</button>
+    </div>
+    
+</div>
